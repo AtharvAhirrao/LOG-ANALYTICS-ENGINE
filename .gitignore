@@ -18,3 +18,4 @@ logs/*.log
 .DS_Store
 Thumbs.db
 *.csv
+debug.log
