@@ -1,0 +1,7 @@
+dask[dataframe,distributed]
+pandas
+numpy
+flask
+gunicorn
+streamlit
+plotly
