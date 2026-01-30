@@ -1,4 +1,4 @@
-dask[dataframe,distributed]
+dask
 pandas
 numpy
 flask
