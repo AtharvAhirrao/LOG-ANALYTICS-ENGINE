@@ -1,3 +1,5 @@
-dask[dataframe]
+dask[dataframe,distributed]
 pandas
-python -m pip install "dask[distributed]"
+numpy
+flask
+gunicorn
