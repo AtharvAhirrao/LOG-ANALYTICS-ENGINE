@@ -4,10 +4,6 @@ import os
 import sys
 import pandas as pd
 
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-CSV_PATH = os.path.join(ROOT_DIR, "realtime_logs.csv")
-df = pd.read_csv(CSV_PATH)
-
 root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if root_path not in sys.path:
     sys.path.insert(0, root_path)
