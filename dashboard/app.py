@@ -4,9 +4,8 @@ import os
 import sys
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSV_PATH = os.path.join(BASE_DIR, "realtime_logs.csv")
-
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+CSV_PATH = os.path.join(ROOT_DIR, "realtime_logs.csv")
 df = pd.read_csv(CSV_PATH)
 
 root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
