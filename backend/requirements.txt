@@ -1,7 +1,0 @@
-dask
-pandas
-numpy
-flask
-gunicorn
-streamlit
-plotly

@@ -1,7 +1,9 @@
-dask
+dask[dataframe]
 pandas
-numpy
-flask
-gunicorn
-streamlit
+dask[distributed]
+secure-smtplib
+streamlit 
 plotly
+uvicorn
+fastapi
+bokeh>=3.1.0
