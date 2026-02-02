@@ -1,9 +1,3 @@
-# pip install streamlit plotly
-# streamlit : Python framework for building web apps for data science and machine learning
-# plotly : Interactive graphing library
-# app.py is independent from main.py
-# It reads processed logs and visualizes them in a dashboard
-
 import streamlit as st
 import plotly.express as px
 import os
