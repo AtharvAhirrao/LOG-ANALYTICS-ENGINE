@@ -17,5 +17,3 @@ logs/*.log
 # OS
 .DS_Store
 Thumbs.db
-*.csv
-debug.log
